@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'puush' target in the 'puush' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+	#import "puush.h"
+	#import "puushCommon.h"
+#endif
